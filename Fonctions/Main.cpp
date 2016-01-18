@@ -20,11 +20,13 @@ int main(int argc, char * argv)
 
 	int valeur1;
 	int valeur2;
+	int valeur3;
 
 	valeur1=composant1(data1,data2);
 
 	valeur2=composant2(data1,data2);
+	valeur3=composant2(data1,data2);
 
-	std::cout << "valeur 1 :" << valeur1 << " valeur 2 :" << valeur2 << std::endl;
+	std::cout << "valeur 1 :" << valeur1 << " valeur 2 :" << valeur2 << "valeur 3 :"<< valeur3 <<std::endl;
 	Sleep(1000);
 }
